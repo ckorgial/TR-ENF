@@ -93,9 +93,10 @@ TR-ENF/
 │   ├── h1_files.txt         # Provided list of H1 WAV files
 │   └── h0_files.txt         # Provided list of H0 WAV files
 ├── tr_optimizer.py          # Trust-region optimization module
-├── main.py    		     # Main detection pipeline
+├── main.py    		         # Main detection pipeline
 ├── print_curves.py          # Generation of ROC/DET curves without running main.py
 ├── requirements.txt         # Python dependencies
+├── results/                 # Results folder
 ├── README.md                # This file
 └── LICENSE                  # MIT License
 ```
