@@ -117,5 +117,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Note**: This work is currently under review for **2026 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)**. Hence, the code files will be released publicly upon paper acceptance.
 
 ---
-
-*For the latest updates and releases, please check the [Releases](https://github.com/yourusername/TR-ENF/releases) page.*
