@@ -88,17 +88,18 @@ Results are automatically saved to `./results/` and include:
 ```
 TR-ENF/
 ├── recordings/
-│   ├── H1/                  # Place ENF-present signals here
-│   ├── H0/                  # Place ENF-free signals here
-│   ├── h1_files.txt         # Provided list of H1 WAV files
-│   └── h0_files.txt         # Provided list of H0 WAV files
-├── tr_optimizer.py          # Trust-region optimization module
-├── main.py    		         # Main detection pipeline
-├── print_curves.py          # Generation of ROC/DET curves without running main.py
-├── requirements.txt         # Python dependencies
-├── results/                 # Results folder
-├── README.md                # This file
-└── LICENSE                  # MIT License
+│   ├── H1/                      # ENF-present signals
+│   │   └── h1_index.txt         # List of ENF-present WAV files
+│   ├── H0/                      # ENF-free signals
+│   │   └── h0_index.txt         # List of ENF-free WAV files
+├── tr_optimizer.py              # Trust-region optimization module
+├── main.py                      # Main detection pipeline
+├── print_curves.py              # Generate ROC/DET curves without running main.py
+├── requirements.txt             # Python dependencies
+├── results/                     # Results folder
+├── README.md                    # Project description
+└── LICENSE                      # MIT License
+
 ```
 
 
