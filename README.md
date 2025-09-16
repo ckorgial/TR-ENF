@@ -19,12 +19,12 @@ After downloading the ENF-WHU dataset, organize your data as follows:
 ```
 recordings/
 ├── H1/                 # ENF-present signals
-│   ├── file1.wav
-│   ├── file2.wav
+│   ├── 1.wav
+│   ├── 2.wav
 │   └── ...
 └── H0/                 # ENF-free signals
-    ├── file1.wav
-    ├── file2.wav
+    ├── 180926_1851.wav
+    ├── 180930_0906.wav
     └── ...
 ```
 
