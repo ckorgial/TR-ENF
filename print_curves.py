@@ -142,11 +142,11 @@ for d in [5,6,7,8,9,10]:
 
 # Diagonal EER line
 plt.plot([0,100],[0,100],'k--', lw=1.5, label="EER line")
-#plt.xlabel("False Positive Rate (%)", fontsize=16)
-#plt.ylabel("True Positive Rate (%)", fontsize=16)
+plt.xlabel("False Positive Rate (%)", fontsize=16)
+plt.ylabel("False Negative Rate (%)", fontsize=16)
 plt.xticks(fontsize=14); plt.yticks(fontsize=14)
 plt.axis("square"); plt.xlim([0,100]); plt.ylim([0,100])
-#plt.legend(loc="upper right", fontsize=12, frameon=True, fancybox=True)
+plt.legend(loc="upper right", fontsize=12, frameon=True, fancybox=True)
 plt.grid(alpha=0.3); plt.tight_layout()
 plt.savefig("det_curves_trenf_5_10s.png", dpi=300)
 plt.show()  # opens a native pop-up window
