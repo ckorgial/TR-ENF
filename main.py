@@ -254,8 +254,8 @@ def process_duration(files,dsec,tr_converg_rows):
                 np.array([fc_fft + 0.02, 0.1, 0.1]),
                 np.array([fc_fft - 0.02, 0.1, 0.1]),
                 np.array([100.0, 0.1, 0.1]),  # nominal anchors
-                np.array([100.2, 0.1, 0.1]),
-                np.array([99.8, 0.1, 0.1]),
+                np.array([100.5, 0.1, 0.1]),
+                np.array([99.5, 0.1, 0.1]),
             ]
             J,gJ,HJ=build_problem(xf,T)
             best_mu,best_J,best_info=None,np.inf,None
